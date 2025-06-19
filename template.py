@@ -8,15 +8,16 @@ project_name = "textSummarizer"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
-    f"src/{project_name}/__init__py",
-    f"src/{project_name}/components/__init__py",
+    f"src/{project_name}/__init__.py",
+    f"src/{project_name}/conponents/__init__.py",
+    f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/utils/common.py",
-    f"src/{project_name}/logging/__init__py",
-    f"src/{project_name}/config/__init__py",
+    f"src/{project_name}/logging/__init__.py",
+    f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/config/configuration.py",
-    f"src/{project_name}/pipeline/__init__py",
-    f"src/{project_name}/entity/__init__py",
-    f"src/{project_name}/constants/__init__py",
+    f"src/{project_name}/pipeline/__init__.py",
+    f"src/{project_name}/entity/__init__.py",
+    f"src/{project_name}/constants/__init__.py",
     "config/config.yaml",
     "params.yaml",
     "app.py",
@@ -24,6 +25,7 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb"
+    "main.py"
 ]
 
 for filepath in list_of_files:
